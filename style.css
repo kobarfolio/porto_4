@@ -1,10 +1,4 @@
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins' sans-serif;
-  
-}
+
 body
 {
     background: lightblue;
@@ -236,4 +230,158 @@ p
     color: #03a9f4;
     font-size: 10px;
     width: 20px;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    .main {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+    .left {
+        padding-left: 10px;
+    }
+    .right {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: contents;
+    }
+
+    .box-1 {
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .main {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    .left {
+        padding-left: 10px;
+    }
+    .right {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: contents;
+    }
+
+    .box-1 {
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .main {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    .left {
+        padding-left: 10px;
+    }
+    .right {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: contents;
+    }
+
+    .box-1 {
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .main {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    .left {
+        padding-left: 50px;
+    }
+    .right {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: contents;
+    }
+
+    .box-1 {
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .main {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    .left {
+        padding-left: 100px;
+    }
+    .right {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: contents;
+    }
+
+    .box-1 {
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .main {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    .left {
+        padding-left: 150px;
+    }
+    .right {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: contents;
+    }
+
+    .box-1 {
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    .main {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    .left {
+        padding-left: 200px;
+    }
+    .right {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: contents;
+    }
+
+    .box-1 {
+        margin-left: auto;
+    }
 }
