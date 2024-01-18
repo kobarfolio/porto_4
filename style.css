@@ -235,23 +235,16 @@ p
 
 @media only screen and (max-width: 900px) {
 
-    .main {
-        margin-top: 200px;
-        margin-bottom: 200px;
+   
+    .email {
+        display: flex;
+        
     }
-    .left {
-        padding-left: 10px;
-    }
-    .right {
-        width: 100%;
-        text-align: center;
-        margin: auto;
+    
+    .right-side {
         display: contents;
     }
-
-    .box-1 {
-        margin-left: auto;
-    }
+   
 }
 
 @media only screen and (max-width: 800px) {
